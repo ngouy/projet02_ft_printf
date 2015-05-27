@@ -6,7 +6,7 @@
 /*   By: ngouy <ngouy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 12:14:13 by ngouy             #+#    #+#             */
-/*   Updated: 2015/05/27 12:00:22 by ngouy            ###   ########.fr       */
+/*   Updated: 2015/05/27 13:00:40 by ngouy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -109,7 +109,7 @@ t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 ** Other
 */
 
-char			*ft_join_free(char *s1, char *s2);
+char				*ft_join_free(char *s1, char *s2);
 int					ft_isspace(int c);
 void				ft_putbin(unsigned int i);
 void				ft_putbase(unsigned int i, char j);
@@ -118,6 +118,5 @@ void				ft_put_intlist(t_list *liste);
 int					ft_is_prime(unsigned int i);
 void				ft_lstaddend(t_list **alst, t_list *new);
 int					ft_lstlen(t_list *list);
-
 
 #endif
